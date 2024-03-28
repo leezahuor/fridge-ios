@@ -13,6 +13,13 @@
 		7DE68DCC2BB4CF93006DC2B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE68DCB2BB4CF93006DC2B6 /* Preview Assets.xcassets */; };
 		7DE68DD32BB61BEF006DC2B6 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DD22BB61BEE006DC2B6 /* LandingPage.swift */; };
 		7DE68DD72BB61C4B006DC2B6 /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DD62BB61C4B006DC2B6 /* LogInPage.swift */; };
+		7DE68DDD2BB62068006DC2B6 /* LogInCreateProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DDC2BB62068006DC2B6 /* LogInCreateProfilePage.swift */; };
+		7DE68DDF2BB62072006DC2B6 /* CreateProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DDE2BB62072006DC2B6 /* CreateProfilePage.swift */; };
+		7DE68DE12BB620AB006DC2B6 /* FoodStoragesMenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DE02BB620AB006DC2B6 /* FoodStoragesMenuPage.swift */; };
+		7DE68DE32BB620BB006DC2B6 /* OpenFoodStoragePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DE22BB620BB006DC2B6 /* OpenFoodStoragePage.swift */; };
+		7DE68DE52BB620CF006DC2B6 /* CreateFoodStoragePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DE42BB620CF006DC2B6 /* CreateFoodStoragePage.swift */; };
+		7DE68DE72BB620DC006DC2B6 /* AddFoodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DE62BB620DC006DC2B6 /* AddFoodPage.swift */; };
+		7DE68DE92BB620E4006DC2B6 /* RemoveFoodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DE82BB620E4006DC2B6 /* RemoveFoodPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,13 @@
 		7DE68DCB2BB4CF93006DC2B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DE68DD22BB61BEE006DC2B6 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 		7DE68DD62BB61C4B006DC2B6 /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
+		7DE68DDC2BB62068006DC2B6 /* LogInCreateProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInCreateProfilePage.swift; sourceTree = "<group>"; };
+		7DE68DDE2BB62072006DC2B6 /* CreateProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfilePage.swift; sourceTree = "<group>"; };
+		7DE68DE02BB620AB006DC2B6 /* FoodStoragesMenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStoragesMenuPage.swift; sourceTree = "<group>"; };
+		7DE68DE22BB620BB006DC2B6 /* OpenFoodStoragePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFoodStoragePage.swift; sourceTree = "<group>"; };
+		7DE68DE42BB620CF006DC2B6 /* CreateFoodStoragePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFoodStoragePage.swift; sourceTree = "<group>"; };
+		7DE68DE62BB620DC006DC2B6 /* AddFoodPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodPage.swift; sourceTree = "<group>"; };
+		7DE68DE82BB620E4006DC2B6 /* RemoveFoodPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveFoodPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +72,14 @@
 				7DE68DC42BB4CF91006DC2B6 /* fridge_iosApp.swift */,
 				7DE68DC62BB4CF91006DC2B6 /* ContentView.swift */,
 				7DE68DD22BB61BEE006DC2B6 /* LandingPage.swift */,
+				7DE68DDC2BB62068006DC2B6 /* LogInCreateProfilePage.swift */,
 				7DE68DD62BB61C4B006DC2B6 /* LogInPage.swift */,
+				7DE68DDE2BB62072006DC2B6 /* CreateProfilePage.swift */,
+				7DE68DE02BB620AB006DC2B6 /* FoodStoragesMenuPage.swift */,
+				7DE68DE22BB620BB006DC2B6 /* OpenFoodStoragePage.swift */,
+				7DE68DE42BB620CF006DC2B6 /* CreateFoodStoragePage.swift */,
+				7DE68DE62BB620DC006DC2B6 /* AddFoodPage.swift */,
+				7DE68DE82BB620E4006DC2B6 /* RemoveFoodPage.swift */,
 				7DE68DC82BB4CF93006DC2B6 /* Assets.xcassets */,
 				7DE68DCA2BB4CF93006DC2B6 /* Preview Content */,
 			);
@@ -143,10 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE68DE72BB620DC006DC2B6 /* AddFoodPage.swift in Sources */,
+				7DE68DE32BB620BB006DC2B6 /* OpenFoodStoragePage.swift in Sources */,
+				7DE68DE52BB620CF006DC2B6 /* CreateFoodStoragePage.swift in Sources */,
+				7DE68DE92BB620E4006DC2B6 /* RemoveFoodPage.swift in Sources */,
+				7DE68DDF2BB62072006DC2B6 /* CreateProfilePage.swift in Sources */,
 				7DE68DD72BB61C4B006DC2B6 /* LogInPage.swift in Sources */,
 				7DE68DC72BB4CF91006DC2B6 /* ContentView.swift in Sources */,
 				7DE68DC52BB4CF91006DC2B6 /* fridge_iosApp.swift in Sources */,
 				7DE68DD32BB61BEF006DC2B6 /* LandingPage.swift in Sources */,
+				7DE68DDD2BB62068006DC2B6 /* LogInCreateProfilePage.swift in Sources */,
+				7DE68DE12BB620AB006DC2B6 /* FoodStoragesMenuPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
