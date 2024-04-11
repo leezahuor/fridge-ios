@@ -12,6 +12,7 @@ struct LandingPage: View {
         VStack{
             Spacer()
             Text("Fridgventory")
+                .font(.largeTitle)
                 .bold()
             Spacer()
             
@@ -24,6 +25,8 @@ struct LandingPage: View {
             
             Spacer()
             Text("Enter Button")
+                .padding()
+                .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2)
             Spacer()
         }
     }
