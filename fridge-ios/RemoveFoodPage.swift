@@ -10,14 +10,14 @@ import SwiftUI
 struct RemoveFoodPage: View {
     var body: some View {
         VStack{
-            Text("Are you sure you want to delete this food?")
+            Text("Are you sure you want to remove this food?")
                 .font(.largeTitle)
             Text("Food Name")
                 .padding()
                 .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 1)
                 .padding(.bottom, 10.0)
             HStack{
-                Text("Delete")
+                Text("Remove")
                     .padding()
                     .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2)
                     .padding(.bottom, 10.0)
