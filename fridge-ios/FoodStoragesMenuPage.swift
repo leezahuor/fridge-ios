@@ -10,8 +10,15 @@ import SwiftUI
 struct FoodStoragesMenuPage: View {
     var body: some View {
         VStack{
-            Text("Food Storages Menu")
-                .font(.largeTitle)
+            HStack{
+                Text("Food Storages Menu")
+                    .font(.largeTitle)
+                Spacer()
+                
+                Spacer()
+                Text("+")
+                    .font(.largeTitle)
+            }
             
             HStack {
                 Image("placeholder-freezer")
