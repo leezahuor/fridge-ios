@@ -9,9 +9,29 @@ import SwiftUI
 
 struct FoodStoragesMenuPage: View {
     var body: some View {
-        Text("Food Storages Menu")
+        VStack{
+            Text("Food Storages Menu")
+                .font(.largeTitle)
+            
+            HStack {
+                Image("placeholder-freezer")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 50)
+                    .cornerRadius(10)
+                
+                Text("Kitchen Freezer")
+                    .bold()
+                Spacer()
+            }
+            .listRowSeparator(.hidden)
+            .listRowBackground(Color(.brown)
+                .opacity(0.1))
+            Spacer()
+        }
     }
 }
+
 
 #Preview {
     FoodStoragesMenuPage()
