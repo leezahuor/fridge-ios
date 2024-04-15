@@ -20,6 +20,7 @@
 		7DE68DE52BB620CF006DC2B6 /* CreateFoodStoragePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DE42BB620CF006DC2B6 /* CreateFoodStoragePage.swift */; };
 		7DE68DE72BB620DC006DC2B6 /* AddFoodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DE62BB620DC006DC2B6 /* AddFoodPage.swift */; };
 		7DE68DE92BB620E4006DC2B6 /* RemoveFoodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DE82BB620E4006DC2B6 /* RemoveFoodPage.swift */; };
+		7DE68DF02BCDE3CC006DC2B6 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DEF2BCDE3CC006DC2B6 /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7DE68DE42BB620CF006DC2B6 /* CreateFoodStoragePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFoodStoragePage.swift; sourceTree = "<group>"; };
 		7DE68DE62BB620DC006DC2B6 /* AddFoodPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodPage.swift; sourceTree = "<group>"; };
 		7DE68DE82BB620E4006DC2B6 /* RemoveFoodPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveFoodPage.swift; sourceTree = "<group>"; };
+		7DE68DEF2BCDE3CC006DC2B6 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +71,9 @@
 		7DE68DC32BB4CF91006DC2B6 /* fridge-ios */ = {
 			isa = PBXGroup;
 			children = (
-				7DE68DC42BB4CF91006DC2B6 /* fridge_iosApp.swift */,
-				7DE68DC62BB4CF91006DC2B6 /* ContentView.swift */,
-				7DE68DD22BB61BEE006DC2B6 /* LandingPage.swift */,
-				7DE68DDC2BB62068006DC2B6 /* LogInCreateProfilePage.swift */,
-				7DE68DD62BB61C4B006DC2B6 /* LogInPage.swift */,
-				7DE68DDE2BB62072006DC2B6 /* CreateProfilePage.swift */,
+				7DE68DEA2BCDE247006DC2B6 /* App */,
+				7DE68DEB2BCDE262006DC2B6 /* Components */,
+				7DE68DEC2BCDE278006DC2B6 /* Core */,
 				7DE68DE02BB620AB006DC2B6 /* FoodStoragesMenuPage.swift */,
 				7DE68DE22BB620BB006DC2B6 /* OpenFoodStoragePage.swift */,
 				7DE68DE42BB620CF006DC2B6 /* CreateFoodStoragePage.swift */,
@@ -92,6 +91,50 @@
 				7DE68DCB2BB4CF93006DC2B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DE68DEA2BCDE247006DC2B6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7DE68DC42BB4CF91006DC2B6 /* fridge_iosApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7DE68DEB2BCDE262006DC2B6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7DE68DEF2BCDE3CC006DC2B6 /* InputView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7DE68DEC2BCDE278006DC2B6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7DE68DED2BCDE2BC006DC2B6 /* Authentication */,
+				7DE68DEE2BCDE2C7006DC2B6 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7DE68DED2BCDE2BC006DC2B6 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				7DE68DDC2BB62068006DC2B6 /* LogInCreateProfilePage.swift */,
+				7DE68DD62BB61C4B006DC2B6 /* LogInPage.swift */,
+				7DE68DDE2BB62072006DC2B6 /* CreateProfilePage.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		7DE68DEE2BCDE2C7006DC2B6 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				7DE68DD22BB61BEE006DC2B6 /* LandingPage.swift */,
+				7DE68DC62BB4CF91006DC2B6 /* ContentView.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +216,7 @@
 				7DE68DC72BB4CF91006DC2B6 /* ContentView.swift in Sources */,
 				7DE68DC52BB4CF91006DC2B6 /* fridge_iosApp.swift in Sources */,
 				7DE68DD32BB61BEF006DC2B6 /* LandingPage.swift in Sources */,
+				7DE68DF02BCDE3CC006DC2B6 /* InputView.swift in Sources */,
 				7DE68DDD2BB62068006DC2B6 /* LogInCreateProfilePage.swift in Sources */,
 				7DE68DE12BB620AB006DC2B6 /* FoodStoragesMenuPage.swift in Sources */,
 			);
