@@ -52,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D7F427A2BD08D7F0007D3C1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7DE68DE02BB620AB006DC2B6 /* FoodStoragesMenuPage.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		7DE68DB82BB4CF91006DC2B6 = {
 			isa = PBXGroup;
 			children = (
@@ -74,7 +82,6 @@
 				7DE68DEA2BCDE247006DC2B6 /* App */,
 				7DE68DEB2BCDE262006DC2B6 /* Components */,
 				7DE68DEC2BCDE278006DC2B6 /* Core */,
-				7DE68DE02BB620AB006DC2B6 /* FoodStoragesMenuPage.swift */,
 				7DE68DE22BB620BB006DC2B6 /* OpenFoodStoragePage.swift */,
 				7DE68DE42BB620CF006DC2B6 /* CreateFoodStoragePage.swift */,
 				7DE68DE62BB620DC006DC2B6 /* AddFoodPage.swift */,
@@ -113,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				7DE68DED2BCDE2BC006DC2B6 /* Authentication */,
+				7D7F427A2BD08D7F0007D3C1 /* Profile */,
 				7DE68DEE2BCDE2C7006DC2B6 /* Root */,
 			);
 			path = Core;
