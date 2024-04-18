@@ -12,7 +12,7 @@ struct FoodStoragesMenuPage: View {
         List {
             Section {
                 HStack {
-                    Text("TA")
+                    Text(User.MOCK_USER.initials)
                         .font(.title)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
@@ -21,14 +21,14 @@ struct FoodStoragesMenuPage: View {
                         .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                     
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("Test Account")
+                        Text(User.MOCK_USER.fullName)
                             .font(.subheadline)
                             .fontWeight(.semibold)
                             .padding(.top, 4)
                         
-                        Text("test@email.com")
+                        Text(User.MOCK_USER.email)
                             .font(.footnote)
-                            .accentColor(.gray)
+                            .foregroundColor(.gray)
                     }
                 }
             }
