@@ -9,32 +9,72 @@ import SwiftUI
 
 struct FoodStoragesMenuPage: View {
     var body: some View {
-        VStack{
-            HStack{
-                Text("Food Storages Menu")
-                    .font(.largeTitle)
-                Spacer()
-                
-                Spacer()
-                Text("+")
-                    .font(.largeTitle)
+        List {
+            Section {
+                HStack {
+                    Text("TA")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.white)
+                        .frame(width: 72, height: 72)
+                        .background(Color(.systemGray))
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                    
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Test Account")
+                            .font(.subheadline)
+                            .fontWeight(.semibold)
+                            .padding(.top, 4)
+                        
+                        Text("test@email.com")
+                            .font(.footnote)
+                            .accentColor(.gray)
+                    }
+                }
             }
             
-            HStack {
-                Image("placeholder-freezer")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(height: 50)
-                    .cornerRadius(10)
-                
-                Text("Kitchen Freezer")
-                    .bold()
-                Spacer()
+            Section("Food Storages") {
+                Button {
+                    print("Opening...")
+                } label: {
+                    HStack {
+                        Image(systemName: "refrigerator")
+                        
+                        Text("Kitchen Freezer")
+                            .font(.subheadline)
+                            .foregroundColor(.black)
+                    }
+                }
             }
-            .listRowSeparator(.hidden)
-            .listRowBackground(Color(.brown)
-                .opacity(0.1))
-            Spacer()
+            
+            Section("Account") {
+                Button {
+                    print("Adding storage...")
+                } label: {
+                    HStack {
+                        Image(systemName: "plus")
+                        
+                        Text("Add Storage")
+                            .font(.subheadline)
+                            .foregroundColor(.black)
+                    }
+                }
+                
+                Button {
+                    print("Logging out...")
+                } label: {
+                    HStack {
+                        Image(systemName: "arrow.left.circle.fill")
+                            .foregroundColor(.red)
+                        
+                        Text("Log Out")
+                            .font(.subheadline)
+                            .foregroundColor(.black)
+
+                    }
+                }
+            }
+            
         }
     }
 }
