@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct fridge_iosApp: App {
+    @StateObject var viewModel = AuthViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }
