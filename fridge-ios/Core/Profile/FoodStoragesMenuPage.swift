@@ -61,6 +61,18 @@ struct FoodStoragesMenuPage: View {
                 }
                 
                 Button {
+                    print("Delete storage...")
+                } label: {
+                    HStack {
+                        Image(systemName: "minus")
+                        
+                        Text("Delete Storage")
+                            .font(.subheadline)
+                            .foregroundColor(.black)
+                    }
+                }
+                
+                Button {
                     print("Logging out...")
                 } label: {
                     HStack {
@@ -68,6 +80,20 @@ struct FoodStoragesMenuPage: View {
                             .foregroundColor(.red)
                         
                         Text("Log Out")
+                            .font(.subheadline)
+                            .foregroundColor(.black)
+
+                    }
+                }
+                
+                Button {
+                    print("Deleting account...")
+                } label: {
+                    HStack {
+                        Image(systemName: "xmark.circle.fill")
+                            .foregroundColor(.red)
+                        
+                        Text("Delete Account")
                             .font(.subheadline)
                             .foregroundColor(.black)
 
