@@ -13,6 +13,7 @@ struct CreateProfilePage: View {
     @State private var password = ""
     @State private var confirmPassword = ""
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var viewModel: AuthViewModel
     
     var body: some View {
         NavigationStack {
@@ -50,7 +51,11 @@ struct CreateProfilePage: View {
                 
                 // log in button
                 Button {
-                    print("Create profile...")
+                    Task {
+                        try await viewModel.createUser(withEmail: email,
+                                                       password: password,
+                                                       fullname: fullName)
+                    }
                 } label: {
                     HStack {
                         Text("Create Profile")
