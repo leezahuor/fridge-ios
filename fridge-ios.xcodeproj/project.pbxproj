@@ -37,6 +37,7 @@
 		7D7F42B42BD1E0D30007D3C1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7D7F42B32BD1E0D30007D3C1 /* FirebaseStorage */; };
 		7D7F42B62BD1E0D30007D3C1 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7D7F42B52BD1E0D30007D3C1 /* FirebaseStorageCombine-Community */; };
 		7D7F42BA2BD1EF960007D3C1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F42B92BD1EF960007D3C1 /* AuthViewModel.swift */; };
+		7D7F42C02BD445A20007D3C1 /* envKeys.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D7F42BF2BD445A20007D3C1 /* envKeys.json */; };
 		7DE68DC52BB4CF91006DC2B6 /* fridge_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DC42BB4CF91006DC2B6 /* fridge_iosApp.swift */; };
 		7DE68DC72BB4CF91006DC2B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE68DC62BB4CF91006DC2B6 /* ContentView.swift */; };
 		7DE68DC92BB4CF93006DC2B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE68DC82BB4CF93006DC2B6 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		7D7F427C2BD1C2F50007D3C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7D7F427E2BD1DDC00007D3C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7D7F42B92BD1EF960007D3C1 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		7D7F42BF2BD445A20007D3C1 /* envKeys.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = envKeys.json; sourceTree = "<group>"; };
 		7DE68DC12BB4CF91006DC2B6 /* fridge-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fridge-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE68DC42BB4CF91006DC2B6 /* fridge_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fridge_iosApp.swift; sourceTree = "<group>"; };
 		7DE68DC62BB4CF91006DC2B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				7DE68DC82BB4CF93006DC2B6 /* Assets.xcassets */,
 				7D7F427E2BD1DDC00007D3C1 /* GoogleService-Info.plist */,
 				7DE68DCA2BB4CF93006DC2B6 /* Preview Content */,
+				7D7F42BF2BD445A20007D3C1 /* envKeys.json */,
 			);
 			path = "fridge-ios";
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DE68DCC2BB4CF93006DC2B6 /* Preview Assets.xcassets in Resources */,
+				7D7F42C02BD445A20007D3C1 /* envKeys.json in Resources */,
 				7DE68DC92BB4CF93006DC2B6 /* Assets.xcassets in Resources */,
 				7D7F427F2BD1DDC00007D3C1 /* GoogleService-Info.plist in Resources */,
 			);
